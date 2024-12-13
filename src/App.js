@@ -19,7 +19,7 @@ class App extends React.Component {
 
   render() {
   return (
-    <Router>
+    <Router basename="/frontend-playground">
       <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
         <a className='navbar-brand'><NavLink to="/" className='nav-link'>FRONTEND PLAYGROUND</NavLink></a>
         <ul className='nav nav-pills justify-content-end red'>
