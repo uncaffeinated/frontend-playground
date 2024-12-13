@@ -21,7 +21,7 @@ class App extends React.Component {
   return (
     <Router>
       <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
-        <a className='navbar-brand'><NavLink to="/" className='nav-link'>FRONTEND PLAYGROUND</NavLink></a>
+        <a className='navbar-brand'><NavLink to="/frontend-playground" className='nav-link'>FRONTEND PLAYGROUND</NavLink></a>
         <ul className='nav nav-pills justify-content-end red'>
           <li className='nav-item'><NavLink to="/pages/RandomQuoteMachine" className='nav-link'>Random Quote Machine</NavLink></li>
           <li className='nav-item'><NavLink to="/pages/MarkdownPreviewer" className='nav-link'>Markdown Previewer</NavLink></li>
@@ -31,7 +31,7 @@ class App extends React.Component {
         </ul>
       </nav>
       <Routes basename="/frontend-playground">
-        <Route path="/" element={<h1>Welcome! This page is still heavily under construction.</h1>}/>
+        <Route path="/frontend-playground" element={<h1>Welcome! This page is still heavily under construction.</h1>}/>
         <Route path="/pages/RandomQuoteMachine" element={<RandomQuoteMachine />} />
         <Route path="/pages/MarkdownPreviewer" element={<h1>Welcome! This page is still heavily under construction.</h1>} />
         <Route path="/pages/DrumMachine" element={<h1>Welcome! This page is still heavily under construction.</h1>} />
