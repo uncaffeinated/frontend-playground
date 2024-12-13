@@ -30,7 +30,7 @@ class App extends React.Component {
           <li className='nav-item'><NavLink to="/pages/Clock" className='nav-link'>25 + 5 Clock</NavLink></li>
         </ul>
       </nav>
-      <Routes>
+      <Routes basename="/frontend-playground">
         <Route path="/" element={<h1>Welcome! This page is still heavily under construction.</h1>}/>
         <Route path="/pages/RandomQuoteMachine" element={<RandomQuoteMachine />} />
         <Route path="/pages/MarkdownPreviewer" element={<h1>Welcome! This page is still heavily under construction.</h1>} />
