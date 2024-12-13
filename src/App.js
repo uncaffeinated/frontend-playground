@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import RandomQuoteMachine from './pages/RandomQuoteMachine';
 import MarkdownPreviewer from './pages/MarkdownPreviewer';
 import DrumMachine from './pages/DrumMachine';
@@ -19,7 +19,7 @@ class App extends React.Component {
 
   render() {
   return (
-    <Router basename="/frontend-playground">
+    <Router>
       <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
         <a className='navbar-brand'><NavLink to="/" className='nav-link'>FRONTEND PLAYGROUND</NavLink></a>
         <ul className='nav nav-pills justify-content-end red'>
