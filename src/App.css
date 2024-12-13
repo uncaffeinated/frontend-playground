@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  padding: 20px;
+}
+
+body {
+  background-color: #68a814;
+}
+
+.nav-pills > li > a.active {
+  background-color: #444 !important;
+}
+
+.nav-pills > li > a {
+  color: #bbb;
+}
