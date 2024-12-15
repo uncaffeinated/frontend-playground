@@ -70,7 +70,7 @@ class RandomQuoteMachine extends React.Component {
             </blockquote>
             </div>
             <footer id="buttons" className="row justify-content-around">
-                <a href="#" onClick={this.updateQuote} role="button" className="btn btn-dark btn-lg col-4" id="new-quote">New Quote</a>
+                <a onClick={this.updateQuote} role="button" className="btn btn-dark btn-lg col-4" id="new-quote">New Quote</a>
                 <a href={`http://twitter.com/intent/tweet?text="${this.state.quote}" -${this.state.author}`} target="_top" role="button" className="btn btn-secondary btn-lg col-4" id="tweet-quote"><FontAwesomeIcon icon="fa-brands fa-twitter" /> Tweet</a>
             </footer>
         </div>
